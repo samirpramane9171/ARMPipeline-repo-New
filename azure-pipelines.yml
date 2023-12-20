@@ -4,7 +4,7 @@
 # https://aka.ms/yaml
 
 trigger:
-- main
+- master
 
 pool:
   vmImage: ubuntu-latest
@@ -19,7 +19,7 @@ steps:
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'LogicAppDemo01'
     location: 'East US'
-    templateLocation: 'Linked artifact'
+    templateLocation: 'URL of the file'
     csmFile: 'https://raw.githubusercontent.com/samirpramane9171/ARMPipeline-repo-New/main/azuredeploy.json'
     csmParametersFile: '-projectName SamirArmApp'
     deploymentMode: 'Incremental'
