@@ -21,6 +21,6 @@ steps:
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/samirpramane9171/ARMPipeline-repo-New/main/azuredeploy.json'
-    overrideParameters: '-projectName samirarmpipeline'
+    overrideParameters: '-projectName samir9207'
     deploymentMode: 'Incremental'
     deploymentName: 'DeploymentPipeline'
